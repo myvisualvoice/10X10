@@ -1,0 +1,114 @@
+/*
+    Music Is Life
+    musicislife.css
+    Wed., 26.10.2022
+    Thu., 27.10.2022
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #494949;
+}
+
+header, main, footer {
+    width: 97%;
+    max-width: 334px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    padding: 2% 0;
+    color: #fff;
+    border-radius: 7px; 
+    text-align: center; 
+    background-color: limegreen; 
+}
+
+h2 {
+    padding: 3% 0;
+    color: #fff;
+    text-align: center;
+}
+
+article {
+    padding: 5% 0;
+    border-bottom: 4px ridge palevioletred;
+/*    background-color: #eaeaea;*/
+}
+
+article:first-of-type {
+    border-top: 4px ridge palevioletred;
+}
+
+h3 {
+    margin: 0 auto 5% auto;
+    padding: 0.5% 0;
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 1px 1px 2px #555;
+    background-color: darkorchid;
+}
+
+article > h3 > span {
+    color: plum;
+}
+
+figure {
+    margin: 0 auto;
+    position: relative;
+}
+
+figure > img {
+    width: 100%;
+    height: auto;
+}
+
+.audiobox {
+    position: absolute;
+    width: 96%;
+    height: 94.75%;
+    top: 2.25%;
+    left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+figure:hover > .audiobox {
+    display: flex;
+    background-color: aqua;
+    background-color: rgb(0, 255, 255, 0.6);
+}
+
+.audiobox > audio {
+    background-color: #12f058;
+}
+
+video {
+    display: block;
+    width: 97%;
+    max-width: 334px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    margin-top: 3%;
+    padding: 2% 0;
+    bottom: 0;
+    text-align: center;
+    border-top: 1px solid silver;
+}
+
+.ara {
+    direction: rtl;
+    letter-spacing: 1px; 
+}
